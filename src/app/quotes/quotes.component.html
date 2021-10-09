@@ -5,12 +5,13 @@
         <div *ngFor='let quote of quotes;let i = index'>
         
 
-            <h5>{{quote.title}}</h5>
-            <p>{{quote.quote}}</p>
+            <h5 class="margin-none">{{quote.title}}</h5>
+            <p class="margin-none">{{quote.quote}}</p>
         
         <a href="" class="btn btn-success btn-sm btn-block">Quote Details</a>
+        <app-quote-details [quote]='quote'></app-quote-details>
         <hr>
-    </div>
+    </div>    
     </div>
 </div>
   
