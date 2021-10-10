@@ -9,7 +9,10 @@
         <a (click) ='showDetails(i)'  class="btn btn-success btn-sm btn-block">Quote Details</a>
         <app-quote-details  *ngIf ='quote.showquoteDetails'  [quote]='quote' (removeQuote)='removeThisQuote($event,i)'></app-quote-details>
         <hr>
-    </div>    
+    </div>  
+    <div class="">
+        <app-quote-form></app-quote-form>
+      </div>  
     </div>
 </div>
   
