@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 ## Setup/Installation Requirements
 
-* You can run my deployed project at [Deloyed-page](https://devseme.github.io/Urban-Pizzas/)
+* You can run my deployed project at [Deloyed-page]()
 
 ## Development server
 
