@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 ## Setup/Installation Requirements
-* [Fork my code](https://github.com/devseme/Urban-Pizzas.git) on your terminal and run the project in your files and code editor.
+
 * Also run my deployed project at [Deloyed-page](https://devseme.github.io/Urban-Pizzas/)
 
 ## Development server
