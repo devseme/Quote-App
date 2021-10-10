@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
 
-#### This is my IP4 for prep module at Moringa school
+#### This is my IP1 for core module at Moringa school
 #### By **Ian Ochenge**
 ## Description
 This is a simple landing page for a  pizza outlet.It allows users to view the menu of the pizza outlet and make an order according to each of their preferences.
