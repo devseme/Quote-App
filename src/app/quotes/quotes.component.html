@@ -3,13 +3,11 @@
         <h1>QUOTES</h1>
         <hr>
         <div *ngFor='let quote of quotes;let i = index'>
-        
-
             <h5 class="margin-none">{{quote.title}}</h5>
             <p class="margin-none">{{quote.quote}}</p>
-        
-        <a href="" class="btn btn-success btn-sm btn-block">Quote Details</a>
-        <app-quote-details [quote]='quote'></app-quote-details>
+            
+        <a (click) ='showDetails(i)'  class="btn btn-success btn-sm btn-block">Quote Details</a>
+        <app-quote-details  *ngIf ='quote.showquoteDetails'  [quote]='quote' (removeQuote)='removeThisQuote($event,i)'></app-quote-details>
         <hr>
     </div>    
     </div>

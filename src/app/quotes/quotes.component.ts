@@ -12,7 +12,18 @@ export class QuotesComponent implements OnInit {
     new Quote('Quote 2','The only person you are destined to become is the person you decide to be.','-Ralph Waldo Emerson','4'),
     new Quote('Quote 3','Nothing is impossible, the word itself says, ‘I am possible!' ,'-Audrey Hepburn','3'),
   ]
+   showDetails(index:number){
+     this.quotes[index].showquoteDetails =  !this.quotes[index].showquoteDetails;
+   }
+   removeThisQuote(removeQuote,index){
+    if (removeQuote) {
+      let toDelete = confirm('Are you sure you want to delete ?')
+      if (toDelete){
+      this.quotes.splice(index,1);
+    }
 
+  }
+   }
   constructor() { }
 
   ngOnInit(): void {
