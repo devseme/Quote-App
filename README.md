@@ -1,6 +1,15 @@
-# Quotes
+# Quotes App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
+# Urban-Pizzas Website
+
+#### This is my IP4 for prep module at Moringa school
+#### By **Ian Ochenge**
+## Description
+This is a simple landing page for a  pizza outlet.It allows users to view the menu of the pizza outlet and make an order according to each of their preferences.
+## Setup/Installation Requirements
+* [Fork my code](https://github.com/devseme/Urban-Pizzas.git) on your terminal and run the project in your files and code editor.
+* Also run my deployed project at [Deloyed-page](https://devseme.github.io/Urban-Pizzas/)
 
 ## Development server
 
