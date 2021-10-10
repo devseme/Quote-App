@@ -17,6 +17,14 @@ export class QuoteDetailsComponent implements OnInit {
     
     faDown = faThumbsDown;
     faUp = faThumbsUp;
+    upVote= 0;
+    inspirational () {
+      this.upVote++;
+    }
+    downVote= 0;
+    terrible () {
+      this.downVote++;
+    }
 
   constructor() { }
 
