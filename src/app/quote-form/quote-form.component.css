@@ -1,12 +1,13 @@
 #form{
-    /* margin-left: 24vw;
-    
-    margin-top:-35vh; */
-    
     height: auto;
     width: 25vw;
     align-items: center;
     text-align: center;
+    
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    height: auto;  
     
 }
 label{
