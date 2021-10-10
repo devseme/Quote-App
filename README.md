@@ -1,7 +1,7 @@
 # Quotes App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
-# Urban-Pizzas Website
+
 
 #### This is my IP4 for prep module at Moringa school
 #### By **Ian Ochenge**
