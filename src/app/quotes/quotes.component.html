@@ -1,5 +1,6 @@
-<div class="row">
-    <div class="col-md-6">
+  <div class="row">
+      
+    <div class="col-md-6" id="quotes">
         <h1>QUOTES</h1>
         <hr>
         <div *ngFor='let quote of quotes;let i = index'>
@@ -9,10 +10,13 @@
         <a (click) ='showDetails(i)'  class="btn btn-success btn-sm btn-block">Quote Details</a>
         <app-quote-details  *ngIf ='quote.showquoteDetails'  [quote]='quote' (removeQuote)='removeThisQuote($event,i)'></app-quote-details>
         <hr>
-    </div>  
-    <div class="col-md-6">
-        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-      </div>  
-    </div>
+    </div> 
+    
 </div>
+<div class="col-md-6">
+    <app-quote-form (addQuote) ='addNewQuote($event)'></app-quote-form>
+</div>
+</div>
+
+
   

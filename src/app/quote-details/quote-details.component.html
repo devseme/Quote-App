@@ -1,4 +1,9 @@
 <p>Author : &nbsp;{{quote.author}} </p>
  <p>Publisher : &nbsp;{{quote.publisher}} </p>
+ <div>
+ <fa-icon [icon]="faUp"></fa-icon>&nbsp;&nbsp;&nbsp;
+ <fa-icon [icon]="faDown"></fa-icon>
+</div>
+
 <button (click) ='deleteQuote(true)' class="btn btn-outline-danger btn-sm">Delete Quote</button>
 
