@@ -1,0 +1,30 @@
+#form{
+    margin-left: 24vw;
+    border: 1px solid red;
+    margin-top:-35vh;
+    height: 90vh;
+    width: 25vw;
+    align-items: center;
+    text-align: center;
+}
+label{
+    display:block;
+    margin:0.5rem;
+}
+input{
+    display:block;
+    width:15vw;
+    padding: 10px;
+    margin-left:90px;
+    border: 5 px solid black;
+
+
+}
+button{
+    margin-left:50px;
+}
+textarea{
+    width: 20vw;
+    margin-left:40px;
+    border: 5 px solid black;
+}
