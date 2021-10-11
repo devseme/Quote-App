@@ -18,16 +18,17 @@ input{
     display:block;
     width:15vw;
     padding: 10px;
-    margin-left:90px;
-    border: 5 px solid black;
+    margin-left:40px;
+    border: 10 px solid black;
 
 
 }
 button{
-    margin-left:50px;
+    margin-left:30px;
+    border-radius: 50px;
 }
 textarea{
     width: 20vw;
-    margin-left:40px;
+    margin-left:30px;
     border: 5 px solid black;
 }
